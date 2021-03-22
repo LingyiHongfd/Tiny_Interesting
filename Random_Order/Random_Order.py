@@ -7,7 +7,7 @@ for filename in os.listdir(r'./data'):
     filename_len=len(filename)
     filename=filename[0:filename_len-4]
     filename_list.append(filename)
-    print (filename)
+    #print (filename)
 filename_str=""
 for i in filename_list:
     filename_str=filename_str+str(i)+" "
